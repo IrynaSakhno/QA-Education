@@ -1,0 +1,108 @@
+html {
+  font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+  --primary-color: #0a2953;
+  --secondary-color: #333333;
+}
+.main_div {
+  display: flex; 
+  /* flex-direction: row-reverse; */
+    width: 1700px;
+    margin-top: 0em;
+        margin-bottom: 3em;
+        margin-left: 1em;
+        margin-right: 1em;
+  /* margin: 1px auto; */
+  }
+header {
+        background-color: #709bd2;
+        margin-top: 1em;
+        margin-bottom: 0em;
+        margin-left: 1em;
+        margin-right: 1em;
+        padding-top: 1em;
+        padding-bottom: 2.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+  }
+* {
+    color: secondary-color #333333;
+    color: var(--secondary-color);
+  }
+  
+h1 {
+    color: primary-color #0a2953;
+    color: var(--primary-color);
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+h3 {
+    color:#0a3874;
+    font-style: italic;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+  }
+h5 {
+    color: secondary-color #333333;
+    color: var(--secondary-color);
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 2em;
+ }
+a {
+    color: primary-color #2f80ed;
+    color: var(--primary-color);
+  }
+.content {
+  max-width: 1000px;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+.sidebar {
+    width: 409px;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    right: 0px;
+    font-size: 12pt;
+    background-color: rgb(213, 219, 230);
+    float: right;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+              }
+
+section {
+    padding-top: 0em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    position: relative;
+    font-size: 12pt;
+  }
+  .cv {
+    max-width: 900px;
+    margin: 0 auto;
+      }
+.contacts {
+    margin-left: 17em;
+    padding-left: 2em;
+    font-size: 12pt;
+}
+  .experience {
+    display: flex;
+    margin-bottom: 2em;
+}
+    .experience__date {
+      min-width: 245px;
+      margin-bottom: 1em;
+    }
+    .experience__name {
+      font-weight: bold;
+    }
+    @media (max-width: 575px) {
+        .experience {
+          display: block;
+        }
+    }
