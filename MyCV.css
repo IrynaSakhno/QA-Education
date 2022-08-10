@@ -6,7 +6,7 @@ html {
 .main_div {
   display: flex; 
   /* flex-direction: row-reverse; */
-    width: 1700px;
+    width: 1420px;
     margin-top: 0em;
         margin-bottom: 3em;
         margin-left: 1em;
@@ -23,6 +23,7 @@ header {
         padding-bottom: 2.5em;
         padding-left: 1em;
         padding-right: 1em;
+        width: 1387px;
   }
 * {
     color: secondary-color #333333;
